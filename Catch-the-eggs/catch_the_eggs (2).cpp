@@ -719,7 +719,6 @@ static void update(float dt)
         float bT=gBasket.y+BH;
 
         if(it.y<=bT && it.y>=gBasket.y-10 && it.x>=bL && it.x<=bR){
-<<<<<<< HEAD
             /* Only collect eggs; ignore powerups and poop */
             if(it.type==EGG_NORMAL || it.type==EGG_BLUE || it.type==EGG_GOLDEN){
                 it.active=false;
@@ -729,25 +728,6 @@ static void update(float dt)
                     case EGG_GOLDEN: gScore+=10; break;
                     default: break;
                 }
-=======
-            it.active=false;
-            switch(it.type){
-                case EGG_NORMAL: gScore+=1;  break;
-                case EGG_BLUE:   gScore+=5;  break;
-                case EGG_GOLDEN: gScore+=10; break;
-                case POOP:
-                    if(gShield){ gShield=false; }
-                    else        { gScore-=10; if(gScore<0)gScore=0; }
-                    break;
-                case PWR_BASKET:
-                    gBigOn=true; gBigT=10.f; gBasket.w=BW_BIG; break;
-                case PWR_SLOW:
-                    gSlowOn=true; gSlowT=8.f; break;
-                case PWR_TIME:
-                    gTime+=20.f; break;
-                case PWR_SHIELD:
-                    gShield=true; break;
->>>>>>> c1a6f1c2d70d77646e245fa7b9c91f7720c40f47
             }
         }
 
@@ -1021,11 +1001,7 @@ static void timerCB(int)
 static void keyDown(unsigned char k,int,int){
     gKeys[k]=true;
     if(k==27||k=='p'||k=='P'){        /* ESC or P */
-<<<<<<< HEAD
         if(gState==ST_PLAY)  { gState=ST_PAUSE; gTime-=50.f; if(gTime<0)gTime=0; }
-=======
-        if(gState==ST_PLAY)  gState=ST_PAUSE;
->>>>>>> c1a6f1c2d70d77646e245fa7b9c91f7720c40f47
         else if(gState==ST_PAUSE) gState=ST_PLAY;
     }
     if((k=='n'||k=='N')&&gState==ST_PLAY) gNight=!gNight;
