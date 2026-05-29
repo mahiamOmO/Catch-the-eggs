@@ -445,9 +445,18 @@ Shows: Final score achieved,
 - More power-ups
 - Custom skins
 
----
+## 📄 License
 
+This project is licensed under the [MIT License](LICENSE).
 
+<div align="center">
+  <a href="https://www.buymeacoffee.com/mahiamomo" target="_blank">
+    <em>
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="210">
+    </em>
+  </a>
+  <h3><em>✨ Happy Coding! ❤️ ✨</em></h3>
+</div>
 
 
 
