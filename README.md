@@ -180,7 +180,6 @@ Or:
 ./game/game
 ```
 
----
 
 ## 📐 Technical Details
 
@@ -205,7 +204,7 @@ Or:
 - **Combo Timer:** 2 seconds between catches
 - **Star Rating:** Based on score percentage (1-5 stars)
 
----
+
 
 ## 🎨 Visual Elements
 
@@ -223,7 +222,7 @@ Or:
 - **Bamboo Sticks:** Horizontal platforms (2 levels)
 - **Popups:** Floating score text (yellow/red)
 
----
+
 
 ## 📊 Code Statistics
 
@@ -238,7 +237,6 @@ Or:
 | Main Loop & Event Handling | 300+ |
 | **Total** | **~2000+** |
 
----
 
 ## 🎯 Key Functions
 
@@ -269,7 +267,6 @@ void drawHouse(...);                // Draw house
 void button(...);                   // Draw menu button
 ```
 
----
 
 ## 🎮 Gameplay Example
 
@@ -282,7 +279,7 @@ void button(...);                   // Draw menu button
 7. **Check High Score** → Is it a new record?
 8. **Replay or Menu** → Play again or exit
 
----
+
 
 ## 🐛 Known Issues / Limitations
 
@@ -290,16 +287,15 @@ void button(...);                   // Draw menu button
 - Background music Windows-optimized (SDL2 cross-platform)
 - Star rating based on final score only
 
----
 
 ## 👨‍💻 Developed By
 
 <table align="center">
   <tr>
     <td align="center" style="padding: 10px;">
-      <img src="screenshort/mahia.jpg" alt="Mahia Akter Momo" width="150" style="border-radius: 50%;" /><br>
+      <img src="Output%20Screenshort/mahia.jpeg" alt="Mahia Akter Momo" width="150" style="border-radius: 50%;" /><br>
       <strong>Mahia Akter Momo</strong><br>
-      <em>Team Leader</em><br><br>
+      <em>Team Member 1</em><br><br>
       <a href="https://github.com/mahiamOmO" target="_blank">
         <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" />
       </a><br>
@@ -308,29 +304,19 @@ void button(...);                   // Draw menu button
       </a>
     </td>
     <td align="center" style="padding: 10px;">
-      <img src="screenshort/kamrul.jpg" alt="Md Kamrul Hasan" width="150" style="border-radius: 50%;" /><br>
-      <strong>Md Kamrul Hasan</strong><br>
-      <em>Team Member 1</em><br><br>
-      <a href="https://github.com/KamrulHasan-creator" target="_blank">
-        <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" />
-      </a><br>
-      <a href="https://linkedin.com/in/kamrul-hasan-a30a6633b" target="_blank">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-      </a>
-    </td>
-    <td align="center" style="padding: 10px;">
-      <img src="screenshort/popy.jpeg" alt="Farzana Hossain Popy" width="150" style="border-radius: 50%;" /><br>
-      <strong>Farzana Hossain Popy</strong><br>
+    <img src="Output%20Screenshort/othoi.jpg" alt="Sumaya Jahan othoye" width="150" style="border-radius: 50%;" /><br>
+      <strong>Sumaya Jahan </strong><br>
       <em>Team Member 2</em><br><br>
-      <a href="https://github.com/Farzana-Popy" target="_blank">
+      <a href="https://github.com/sjahanothye" target="_blank">
         <img src="https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white" />
       </a><br>
-      <a href="https://linkedin.com/in/farzana-hossain-popy" target="_blank">
+      <a href="https://linkedin.com/in/" target="_blank">
         <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
       </a>
     </td>
   </tr>
 </table>
+
 
 
 
