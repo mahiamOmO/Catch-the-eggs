@@ -1,7 +1,19 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Welcome+To+Catch+The+Eggs🥚;" />
+</h1>
+
+<p align="center">
+  <img src="./Output%20Screenshort/logo.png" alt="Logo" width="200" />
+</p>
+<div align="center">
+
 # 🎮 CATCH THE EGGS - Game Graphics Project
+
+<br>
 
 > **A fun 2D egg-catching game built with OpenGL and C++**
 
+</div>
 
 ## 🧑‍🏫 Faculty & Course Information
 
@@ -20,7 +32,7 @@
 - Menu system with high score tracking
 
 **Status:** ✅ Complete with Bonus Features  
-**Year:** Spring 2025
+**Year:** Fall 2025
 
 ## 🎥 YouTube Video
 
@@ -141,12 +153,62 @@ https://github.com/user-attachments/assets/690d582f-5dab-4400-b8c2-89453c9ccf42
 
 ```
 Catch-the-eggs/
-├── catch_the_eggs.cpp          # Main source file (~2000+ lines)
-├── game/                       # Compiled executable
-├── Catch The Eggs.pdf          # Project requirements
-├── README.md                   # This file
+├── catch_the_eggs.cpp           # Main source file
+├── game/                        # Compiled executable
+├── Catch The Eggs.pdf           # Project requirements
+├── README.md                    # Documentation
+├── Input Screenshort/           # 📸 Input screenshots (3-4)
+├── Output Screenshort/          # 📸 Output screenshots (3+)
 └── .gitignore
 ```
+## 🎓 Learning Outcomes
+
+- ✅ OpenGL graphics programming
+- ✅ Game state management
+- ✅ Physics simulation (gravity, wind)
+- ✅ Event handling (keyboard, mouse)
+- ✅ Audio synthesis & mixing
+- ✅ UI/UX design (menus, buttons)
+- ✅ Game mechanics (scoring, combos, power-ups)
+- ✅ Optimization techniques
+
+
+
+## 📸 Screenshots & Gameplay
+
+### Game Output Screenshots (4 Key Scenes)
+
+### Available Screenshot Collections
+
+**📁 Input Screenshots (Controls & Navigation)**
+- **Total:** 3-4 screenshots showing user input
+- 📂 Location: [Input Screenshots Folder](https://github.com/mahiamOmO/Catch-the-eggs/tree/main/Input%20Screenshort)
+- ✨ Demonstrates:
+  - Keyboard controls (← → A D keys for basket movement)
+  - Mouse interactions (Click to navigate menu)
+  - Key bindings (P for pause, N for night mode, M for music toggle)
+  - Menu navigation & button interactions
+
+**📁 Output Screenshots (Game Results & Features)**
+- **Total:** 8 unique screenshots in collection
+- 📂 Location: [Output Screenshots Folder](https://github.com/mahiamOmO/Catch-the-eggs/tree/main/Output%20Screenshort)
+- ✨ Includes:
+  - ✅ Main Menu with animations
+  - ✅ Gameplay with HUD (score, timer, combo)
+  - ✅ Power-up states (Big Basket, Slow Motion, Shield)
+  - ✅ Game Over with star ratings
+  - ✅ High Score Display
+  - ✅ Help/Controls documentation page
+  - ✅ Night Mode (dark theme with stars)
+  - ✅ Pause screen overlay
+
+
+### Visual Summary
+
+**Input + Output Images: Total 11-12 Screenshots**
+- 📸 **3-4 Input** (Controls demonstration)
+- 📸 **8 Output** (Gameplay & features showcase)
+- 🎮 Full game lifecycle covered
 
 
 
@@ -319,13 +381,6 @@ void button(...);                   // Draw menu button
 
 
 
-
-## 📝 License
-
-This is a university project for educational purposes.
-
----
-
 ## 🎓 Learning Outcomes
 
 - ✅ OpenGL graphics programming
@@ -337,22 +392,7 @@ This is a university project for educational purposes.
 - ✅ Game mechanics (scoring, combos, power-ups)
 - ✅ Optimization techniques
 
----
 
-## 📸 Screenshots & Gameplay
-
-All screenshots are available in the repository folders:
-
-### Input Screenshots
-**See user input & controls in action:**
-- 📁 [Input Screenshots Folder](https://github.com/mahiamOmO/Catch-the-eggs/tree/main/Input%20Screenshort)
-- Shows keyboard/mouse input demonstrations
-- Control examples for basket movement
-- Menu navigation demonstrations
-
-### Output Screenshots
-**See game output & results:**
-- 📁 [Output Screenshots Folder](https://github.com/mahiamOmO/Catch-the-eggs/tree/main/Output%20Screenshort)
 
 **Screenshots include:**
 - ✅ **Main Menu Screen** - All menu buttons & options visible
@@ -364,7 +404,6 @@ All screenshots are available in the repository folders:
 - ✅ **Night Mode** - Dark theme with stars & moon
 - ✅ **Pause Screen** - Paused gameplay state
 
----
 
 ### Quick Preview
 
@@ -419,7 +458,7 @@ Shows: Final score achieved,
 - [ ] YouTube video uploaded
 - [ ] Screenshots added
 
----
+
 
 ## 🚀 Future Enhancements
 
