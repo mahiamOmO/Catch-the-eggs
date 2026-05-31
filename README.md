@@ -49,6 +49,16 @@ https://github.com/user-attachments/assets/690d582f-5dab-4400-b8c2-89453c9ccf42
 - Duration: ~5-10 minutes
 - Shows: Menu, gameplay, power-ups, scoring system, high score tracking
 
+## 🏗️ System Architecture
+
+<p align="center">
+ <img src="./Output%20Screenshort/system%20design.png" alt="System Architecture" width="900">
+</p>
+
+<p align="center">
+  <b>Figure: System Architecture of Catch The Eggs</b>
+</p>
+
 
 ## 📊 Scoring System
 
