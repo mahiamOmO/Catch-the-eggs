@@ -52,7 +52,9 @@ https://github.com/user-attachments/assets/690d582f-5dab-4400-b8c2-89453c9ccf42
 ## 🏗️ System Architecture
 
 <p align="center">
- <img src="./Output%20Screenshort/system%20design.png" alt="System Architecture" width="900">
+ <p align="center">
+  <img src="./Output%20Screenshort/system%20design.png" alt="System Architecture" width="600">
+</p>
 </p>
 
 <p align="center">
