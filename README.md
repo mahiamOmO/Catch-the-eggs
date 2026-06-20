@@ -34,7 +34,7 @@
 **Status:** ✅ Complete with Bonus Features  
 **Year:** Fall 2025
 
-## 🎥 YouTube Video
+## 🎥 Demo Video
 
 **Watch the gameplay demo:**
 
