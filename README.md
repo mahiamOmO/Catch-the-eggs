@@ -165,14 +165,21 @@ https://github.com/user-attachments/assets/690d582f-5dab-4400-b8c2-89453c9ccf42
 
 ```
 Catch-the-eggs/
-├── catch_the_eggs.cpp           # Main source file
-├── game/                        # Compiled executable
-├── Catch The Eggs.pdf           # Project requirements
-├── README.md                    # Documentation
-├── Input Screenshort/           # 📸 Input screenshots (3-4)
-├── Output Screenshort/          # 📸 Output screenshots (3+)
-└── .gitignore
-```
+├── .github/                     # GitHub templates (bug report, feature requests)
+├── .workflows/                  # CI/CD workflow configurations (e.g., build.yml)
+├── Catch-the-eggs/              # Main project folder
+│   └── catch_the_eggs.cpp       # Main source code file
+├── Input Screenshot/            # 📸 Input screenshots (3-4)
+├── Output Screenshot/           # 📸 Output screenshots (3+)
+├── .gitignore                   # Files to ignore in Git
+├── CHANGELOG.md                 # Track version history and updates
+├── CONTRIBUTING.md              # Guidelines for contributing to the project
+├── Catch The Eggs Report.pdf    # Project documentation and report
+├── INSTALL.md                   # Installation instructions
+├── LICENSE                      # Project license (MIT License)
+├── Makefile                     # Build automation script
+├── README.md                    # Main project documentation
+└── settings.ini                 # Configuration and settings file
 ## 🎓 Learning Outcomes
 
 - ✅ OpenGL graphics programming
