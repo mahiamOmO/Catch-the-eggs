@@ -180,6 +180,9 @@ Catch-the-eggs/
 ├── Makefile                     # Build automation script
 ├── README.md                    # Main project documentation
 └── settings.ini                 # Configuration and settings file
+
+```
+
 ## 🎓 Learning Outcomes
 
 - ✅ OpenGL graphics programming
