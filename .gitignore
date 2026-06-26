@@ -1,0 +1,16 @@
+# Compiled executables
+game
+game.exe
+
+# Object files
+*.o
+*.obj
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*~

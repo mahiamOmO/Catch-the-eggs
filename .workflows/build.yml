@@ -1,0 +1,32 @@
+name: Build Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y g++ freeglut3-dev libgl1-mesa-dev libglu1-mesa-dev xvfb
+
+      - name: Build the game
+        working-directory: Catch-the-eggs
+        run: |
+          g++ catch_the_eggs.cpp -o game -lfreeglut -lopengl32 -lglu32 -lm || \
+          g++ catch_the_eggs.cpp -o game -lglut -lGL -lGLU -lm
+
+      - name: Confirm build success
+        working-directory: Catch-the-eggs
+        run: |
+          echo "✅ Build successful!"
+          ls -lh game
